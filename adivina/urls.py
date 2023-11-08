@@ -1,4 +1,4 @@
-# Archivo urls.py de task
+# Archivo urls.py de adivina
 
 from django.urls import path
 from . import views
