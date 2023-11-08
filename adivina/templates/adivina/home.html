@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
 
     <head>
@@ -8,6 +10,12 @@
 
         <h1>Adivina el numero</h1>
         
+        <form action= "{% url 'guess' %}" method="post">
+            {% csrf token %}
+            <input type="number" >
+
+        </form>
+
     </body>
 
 </html>
